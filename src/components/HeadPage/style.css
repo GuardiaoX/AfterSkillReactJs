@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Metal+Mania');
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 30%;
+    place-items: center;
+    background-color: var(--primary);
+}
+
+header h1 {
+    font-family: 'Metal Mania';
+    font-size: 70px;
+    margin: 0;
+    margin-bottom: 2%;
+    color: var(--myWhite);
+}

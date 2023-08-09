@@ -1,0 +1,57 @@
+.homeMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plusIcon {
+    height: 50px;
+    width: 50px;
+    padding-left: 25%;
+    cursor: pointer;
+    color: var(--myWhite);
+}
+
+.trashCan {
+    height: 35px;
+    width: 35px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.logout {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: var(--myWhite);
+}
+
+.addModal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    height: 80%;
+    width: 35%;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    top: 10%;
+    left: 33%;
+    overflow-y: scroll;
+    background-color: var(--secondary);
+}
+
+.quitModalLogo {
+    height: 30px;
+    width: 30px;
+    align-self: flex-end;
+    margin-right: 3%;
+    margin-top: 3%;
+    cursor: pointer;
+    user-select: none;
+    color: var(--myWhite);
+}

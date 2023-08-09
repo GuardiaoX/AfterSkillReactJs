@@ -1,0 +1,94 @@
+.loginMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: var(--primary);
+}
+
+.loginMain .backButton{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    color: var(--myWhite);
+}
+
+.loginMain p {
+    text-align: center;
+    font-size: 18px;
+    color: var(--myWhite);
+}
+
+.loginMain input {
+    width: 25%;
+    height: 30px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    padding-left: 10px;
+    border: 0;
+    outline: 0;
+    font-family: 'Orienta';
+    color: var(--primary);
+    background-color: var(--myWhite);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.loginMain input::placeholder {
+ color: var(--primary);   
+}
+
+.loginMain input::-ms-reveal {
+ display: none;
+}
+
+.loginMain .passwordInput {
+    width: 25%;
+    height: 33px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-family: 'Orienta';
+    color: var(--primary);
+    background-color: var(--myWhite);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+.loginMain .passwordInput input{
+    width: 100%;
+    height: 80%;
+    outline: 0;
+    border: 0;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    padding-left: 00px;
+    font-family: 'Orienta';
+    color: var(--primary);
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+}
+
+.passwordInput .eye {
+    width: 50px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.loginMain a {
+    width: 22%;
+    text-align: start;
+    cursor: pointer;
+    color: var(--highLight);
+    margin-bottom: 20px;
+}
+
+.loginMain button {
+    width: 10%;
+    background-color: var(--highLight);
+}
